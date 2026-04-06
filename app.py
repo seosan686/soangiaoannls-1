@@ -250,7 +250,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
     else:
         try:
             with st.spinner('AI đang soạn giáo án (Times New Roman 14pt, A4, Căn lề chuẩn)...'):
-                model = genai.GenerativeModel('gemini-3-flash-preview')
+                model = genai.GenerativeModel('gemini-flash-lite-latest')
                 
                 # --- PROMPT CHI TIẾT CỦA THẦY (BẢN GỐC ĐẦY ĐỦ) ---
                 prompt_instruction = f"""
